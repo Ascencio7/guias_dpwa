@@ -1,0 +1,83 @@
+﻿@{
+    ViewBag.Title = "Inicio | Vladimir Ascencio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="@Url.Content("~/Estilos/style.css")" />
+
+<header class="header">
+    <nav class="navbar">
+        @Html.ActionLink("Inicio", "Index", "Home", null, new { @class = "nav-link" })
+    </nav>
+
+</header>
+
+<div class="hero">
+    <h1>Repositorio de Guías</h1>
+    <p>Descargue las guías directamente desde GitHub</p>
+</div>
+
+<section class="guides">
+    <div class="card">
+        <h3>Guía 1</h3>
+        <p>Uso de Web Forms y Sweet Alert</p>
+        <a href="https://github.com/Ascencio7/guia_practica_01/archive/refs/heads/master.zip" class="btn" download>Descargar</a>
+    </div>
+
+    <div class="card">
+        <h3>Guía 2</h3>
+        <p>ASP.NET y Razor</p>
+        <a href="https://github.com/Ascencio7/guia_practica_2/archive/refs/heads/master.zip" class="btn" download>Descargar</a>
+    </div>
+
+    <div class="card">
+        <h3>Guía 3</h3>
+        <p>Formulario de productos con MVC y Razor</p>
+        <a href="https://github.com/Ascencio7/estu_form/archive/refs/heads/master.zip" class="btn" download>Descargar</a>
+    </div>
+
+    <div class="card">
+        <h3>Guía 4</h3>
+        <p>Un CRUD usando la base de datos AdventureWorks2019</p>
+        <a href="https://github.com/Ascencio7/crud_adventureworks2019/archive/refs/heads/master.zip" class="btn" download>Descargar</a>
+    </div>
+
+    <div class="card">
+        <h3>Guía 5</h3>
+        <p>Uso de AJAX con MVC y conexión a SQL Server</p>
+        <a href="https://github.com/Ascencio7/ajax/archive/refs/heads/master.zip" class="btn" download>Descargar</a>
+    </div>
+
+    <div class="card">
+        <h3>Guía 6</h3>
+        <p>Uso básico sobre LINQ</p>
+        <a href="https://github.com/Ascencio7/linq_first/archive/refs/heads/master.zip" class="btn" download>Descargar</a>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Vladimir Ascencio</h3>
+            <p>Repositorio de Guías</p>
+        </div>
+        <div class="footer-section">
+            <h3>Enlaces</h3>
+            <a href="#">Inicio</a>
+            <a href="#">Sobre</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contactos</a>
+        </div>
+        <div class="footer-section">
+            <h3>Redes</h3>
+            <div class="footer-social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 Vladimir Ascencio | Todos los derechos reservados</p>
+    </div>
+</footer>

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    <link rel="stylesheet" href="@Url.Content("~/Estilos/style.css")" />
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+        <nav class="navbar">
+            @Html.ActionLink("Guias Prácticas", "Index", "Home", null, new { @class = "navbar-brand" })
+            <div class="nav-links">
+                @Html.ActionLink("Inicio", "Index", "Home", null, new { @class = "nav-link" })
+                @Html.ActionLink("Guías", "IndexGuia1", "Guia1", null, new { @class = "nav-link" })
+                @Html.ActionLink("Contacto", "Contact", "Home", null, new { @class = "nav-link" })
+            </div>
+        </nav>
+
+    <main class="body-content">
+        @RenderBody()
+    </main>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
