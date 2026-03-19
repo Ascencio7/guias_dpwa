@@ -4,7 +4,7 @@
 
 ## 👤​​ Página Web para descargar Guía de Desarrollo de Páginas Web Activas
 
-**AJAX y ASP.NET**
+**AJAX y ASP NET**
 
 <picture>
   <img align="right" src="https://cdna.artstation.com/p/assets/images/images/052/141/832/original/johan-cediel-rodriguez-pixel-art-take-008.gif?1659036879?raw=true" width="200"/>
@@ -28,31 +28,24 @@ Este proyecto está diseñado como **facilitador de descargas**, para la descarg
 ## Sitio Web
 
 <figure>
-  <img src="./images/app.png" alt="Captura de inicio" style="max-width: 600px; display:block; margin:auto;">
+  <img src="./images/sitio.png" alt="Captura de inicio" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
-## Agregar un nuevo dato (el campo ID se agregará automáticamente)
+## El botón de descarga realiza la descarga del proyecto de la rama master
 
 <figure>
-  <img src="./images/agregar.png" alt="Captura de datos" style="max-width: 600px; display:block; margin:auto;">
+  <img src="./images/boton.png" alt="Captura de datos" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
-## Editar un registro, sin alterar el ID
+## Y se descargara correctamente la carpeta comprimida del proyecto
 <figure>
-  <img src="./images/editar.png" alt="Captura de mayores de 25" style="max-width: 600px; display:block; margin:auto;">
+  <img src="./images/descarga.png" alt="Captura de mayores de 25" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
-## Se eliminará el registro seleccionado
+## Se almacena en las descargas
 <figure>
-  <img src="./images/eliminar.png" alt="Captura de rango de edades" style="max-width: 600px; display:block; margin:auto;">
+  <img src="./images/descargaCorrecta.png" alt="Captura de rango de edades" style="max-width: 600px; display:block; margin:auto;">
 </figure>
-
-## Constancia de que en SQL Server se visualiza el nuevo dato, asi como si se edita o se elimina
-<figure>
-  <img src="./images/base.png" alt="Captura de total y promedio" style="max-width: 600px; display:block; margin:auto;">
-</figure>
-
-
 
 <br>
 
